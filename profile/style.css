@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+h1 {color: #FB2576;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Anton', sans-serif;
+}
+body {
+  background-color: #3F0071;
+  font-family: sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+h2 {
+  color: #332FD0;
+  font-size: 18px;
+}
+p {
+  color: #332FD0;
+  font-size: 18px;
+  text-align: center;
+}
+a:hover {
+  color: #FB2576;
+}
+.card-white {
+  border: 5px dashed #FB2576;
+  padding: 40px;
+  border-radius: 50px;
+}
+.img-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 150%;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 575.98px) {
+
+  .container {
+    width: 300px;
+  }
+}
